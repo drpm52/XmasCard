@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
-img{
-  min-width: 100%;
-  min-height: 100%;
+img {
+  width: 100vw; /* 100% of the viewport width */
+  height: auto; /* 100% of the viewport height */
+  object-fit: cover; /* Ensures the image covers the screen without distortion */
 }
   
